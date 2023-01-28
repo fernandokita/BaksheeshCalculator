@@ -1,0 +1,13 @@
+body{
+	background-color: #cf8787
+}
+h3 {
+	border: solid 0.10rem;
+	border-style: inset;
+	border-radius:1rem 1rem 0.00rem 0.00rem;
+	background-color: #e2dada;
+	font-size: 1.20rem;
+	margin: 6rem 50.10rem 1.50rem 50.10rem;
+	text-align: center;
+	padding: 1rem 0.00rem 1rem 0.00rem;
+}

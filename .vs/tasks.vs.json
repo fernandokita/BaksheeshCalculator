@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Page1",
+      "appliesTo": "Page1.HTML",
+      "type": "launch"
+    }
+  ]
+}
