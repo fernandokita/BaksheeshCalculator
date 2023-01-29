@@ -1,13 +1,36 @@
+:root{
+	--primaryColor: #cf8787;
+	--secondaryColor: #e5e0e0;
+	--terciaryColor: #bdbdbd;
+}
 body{
-	background-color: #cf8787
+	background-color: var(--primaryColor);
+}
+.container {
+	height: 31rem;
+	width: 23rem;
+	margin: 7rem auto;
+	background-color: var(--secondaryColor);
+	
+	font-family: sans-serif;
+	font-size: 1.70rem;
+	border: solid 0.02rem;
+	border-radius: 1rem 1rem;
 }
 h3 {
-	border: solid 0.10rem;
-	border-style: inset;
-	border-radius:1rem 1rem 0.00rem 0.00rem;
-	background-color: #e2dada;
+	font-weight:normal;
+	text-align:center;
+}
+#formStyle{
 	font-size: 1.20rem;
-	margin: 6rem 50.10rem 1.50rem 50.10rem;
-	text-align: center;
-	padding: 1rem 0.00rem 1rem 0.00rem;
+	font-family:sans-serif;
+	padding-left: 1.30rem;
+	
+}
+#calculateBotton {
+	padding: 1rem;
+	margin: 3rem 5rem 2rem 6rem;
+}
+#calculateBotton:hover{
+	background-color:var(--primaryColor);
 }
