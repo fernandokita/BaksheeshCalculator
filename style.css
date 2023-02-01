@@ -28,8 +28,8 @@ h3 {
 	
 }
 #calculateBotton {
-	padding: 1rem;
-	margin: 3rem 5rem 2rem 6rem;
+	padding: -1rem;
+	margin: 3rem 5rem 1rem 6rem;
 }
 #calculateBotton:hover{
 	background-color:var(--primaryColor);

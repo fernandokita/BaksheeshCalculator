@@ -14,12 +14,12 @@
                     <label for="bill">
                         <p>How much was the bill ?</p>
                     </label>
-                    US$<input type="number" id="bill" placeholder="50" min="0">
+                    US$<input type="number" id="bill" placeholder="50" min="0" required>
 
                     <label for="serviceQuality">
                         <p>How was your service ?</p>
                     </label>
-                    <select id="serviceQuality">
+                    <select id="serviceQuality" required>
                         <option disabled selected>-- Choose option</option>
                         <option value="0.3">30%- Great</option>
                         <option value="0.2">20%- Nice</option>
@@ -31,13 +31,15 @@
                     <label for="billSplit">
                         <p>How many people will split bill ?</p>
                     </label>
-                    <input type="number" id="billSplit" min="0"> People
+                    <input type="number" id="billSplit" min="0" required> People
                     <p></p>
                     <input type="submit" value="CALCULATE" id="calculateBotton">
                 </form>
+              
+                <span id="totalTip"> Total tip: US$ </span>
             </div>
-        </article>
-    </section>
-
+            </article>
+         </section>
+        <script type="text/javascript" src="JavaScript.js"></script>
 </body>
 </html>
